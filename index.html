@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Zoula-Quiz</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	
+
+</head>
+<body>
+   
+   
+	<div class="intro py-3 bg-white text-center">
+		<div class="container">
+			<h2 class="text-primary display-3 my-4">Zoula Quiz</h2>
+		</div>
+	</div>
+	<!--Resultat-->
+	<div class="resultat py-4 d-none bg-light text-center">
+		<div class="container lead">
+			<p>Votre score <span class="text-primary display-4 p-3">0%</span></p>
+		</div>
+	</div>
+
+	<!--Quiz Section-->
+	<div class="quiz py-4 bg-secondary">
+		<div class="container">
+			<h2 class="my-5 text-white">Voici les questions...</h2>
+			<form class="quiz-form text-light">
+				<div class="my-5">
+					<p class="lead font-weight-normal">1.Quel est la capitale de Djibouti ?</p>
+					<div class="form-check my-2 text-white-50">
+						<input type="radio" name="q1" value="A">
+						<label class="form-check-label">Asmara</label>
+					</div>
+
+					<div class="form-check my-2 text-white-50">
+						<input type="radio" name="q1" value="B">
+						<label class="form-check-label">Djibouti</label>
+					</div>
+				</div>
+
+				<div class="my-5">
+					<p class="lead font-weight-normal">2.Quel est la somme de 2 + 3 ?</p>
+					<div class="form-check my-2 text-white-50">
+						<input type="radio" name="q2" value="A">
+						<label class="form-check-label">5</label>
+					</div>
+
+					<div class="form-check my-2 text-white-50">
+						<input type="radio" name="q2" value="B">
+						<label class="form-check-label">9</label>
+					</div>
+				</div>
+
+				<div class="my-5">
+					<p class="lead font-weight-normal">3.Quel est le président actuel de France ?</p>
+					<div class="form-check my-2 text-white-50">
+						<input type="radio" name="q3" value="A">
+						<label class="form-check-label">Noura</label>
+					</div>
+
+					<div class="form-check my-2 text-white-50">
+						<input type="radio" name="q3" value="B">
+						<label class="form-check-label">Macron</label>
+					</div>
+				</div>
+
+				<div class="my-5">
+					<p class="lead font-weight-normal">4.Quel est le synonyme du verbe "Quitter" ?</p>
+					<div class="form-check my-2 text-white-50">
+						<input type="radio" name="q4" value="A">
+						<label class="form-check-label">Partir</label>
+					</div>
+
+					<div class="form-check my-2 text-white-50">
+						<input type="radio" name="q4" value="B">
+						<label class="form-check-label">Revenir</label>
+					</div>
+				</div>
+				<div class="text-center">
+					<input type="submit" class="btn btn-light" value="Valider">
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+
+
+
+	<script src="main.js"></script>
+</body>
+
+</html>
